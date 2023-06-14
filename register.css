@@ -1,0 +1,36 @@
+*{
+    margin:0px;
+    padding:0;
+    box-sizing: border-box;
+}
+.d{
+    padding:15px 5px
+}
+.con{
+    text-align: left;
+    margin-left:38%;
+    font-size: 23px;
+    font-weight: bolder;
+}
+input,select{
+    padding:8px 20px;
+    margin-left: 30px;
+}
+body{
+    background-color: antiquewhite;
+}
+#but{
+    padding:20px 40px;
+    border-radius: 50px;   
+    margin-top:10px;
+    background-color: orange;
+    font-weight: bolder;
+    border:none;
+    cursor:pointer
+}
+h1{
+    color:red
+}
+.pass{
+    margin-left:77px
+}

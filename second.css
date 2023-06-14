@@ -1,0 +1,143 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+   background:linear-gradient(to right,#ee9ca7,#ffdde1)
+}
+.head1{
+    border:2px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    background-color:bisque
+}
+div{
+    border:2px solid black;
+    padding:30px;
+    border-radius: 50px;
+    background-color:darkorange;
+    width:60%;
+    margin-left:18.5%;
+    cursor: pointer;
+    
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+    color:black
+}
+div:hover{
+    background: linear-gradient(to right,lightgreen,yellow,pink);
+}
+.it{
+    animation:it 1s linear ;
+}
+@keyframes it{
+    0%{
+        margin-left: -1000px;
+    }
+    100%{
+        margin-left:18.5%;
+    }
+}
+.cse{
+    animation:it 1.5s linear ;
+   
+}
+@keyframes it{
+    0%{
+        
+        margin-left: -1000px;
+    }
+    100%{
+        margin-left:18.5%;
+    }
+}
+.civil{
+    animation:it 2s linear ;
+}
+@keyframes it{
+    0%{
+        margin-left: -1000px;
+    }
+    100%{
+        margin-left:18.5%;
+    }
+}
+.mech{
+    animation:it 2.5s linear ;
+}
+@keyframes it{
+    0%{
+        margin-left: -1000px;
+    }
+    100%{
+        margin-left:18.5%;
+    }
+}
+.maths{
+    animation:it 3s linear ;
+}
+@keyframes it{
+    0%{
+        margin-left: -1000px;
+    }
+    100%{
+        margin-left:18.5%;
+    }
+}
+.tech{
+    animation:it 3.5s linear ;
+}
+@keyframes it{
+    0%{
+        margin-left: -1000px;
+    }
+    100%{
+        margin-left:18.5%;
+    }
+}
+.scripting{
+    animation:it 4s linear ;
+}
+@keyframes it{
+    0%{
+        margin-left: -1000px;
+    }
+    100%{
+        margin-left:18.5%;
+    }
+}
+.env{
+    animation:it 4.5s linear ;
+}
+@keyframes it{
+    0%{
+        margin-left: -1000px;
+    }
+    100%{
+        margin-left:18.5%;
+    }
+}
+.che{
+    animation:it 5s linear ;
+}
+@keyframes it{
+    0%{
+        margin-left: -1000px;
+    }
+    100%{
+        margin-left:18.5%;
+    }
+}
+.phy{
+    animation:it 5.5s linear ;
+}
+@keyframes it{
+    0%{
+        margin-left: -1000px;
+    }
+    100%{
+        margin-left:18.5%;
+    }
+}

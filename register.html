@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="register.css" rel="stylesheet">
+    <title>KPS</title>
+</head>
+<body align="center">
+    <h1>K__P__S</h1><br><br><hr><hr>
+    <div class="con">
+        <form onsubmit="return validation()" action="#">
+            <div class="d">
+                NAME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" placeholder="User name" id="name" required=""autofocus><br>
+            </div>
+            <div class="d">
+                ROLL NO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+                <input type="text" placeholder="Enter roll number" id="roll" required=""><br>
+            </div>
+            <div class="d">
+                DATE OF BIRTH<input type="date" id="birth" required=""><br>
+            </div>
+            <div class="d">
+                AGE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="number" placeholder="Enter your age" id="age" required=""><br>
+            </div>
+            <div class="d" >
+                DEPARTMENT &nbsp;&nbsp;<select id="dep">
+                    <option>CSE</option>
+                    <option>IT</option>
+                    <option>ECE</option>
+                    <option>MECH</option>
+                    <option>CIVIL</option>
+                    <option>EEE</option>
+                    </select><br>
+            </div>
+            <div class="d">
+                PASSWORD<input class="pass" type="password" required="" placeholder="Password" id="password1"><br><br>
+                CONFIRM <br>PASSWORD<input class="pass" type="password" placeholder="Confirm password" id="password2" required="">
+    
+            </div>
+           
+           
+        </div>
+        <button id="but">Register</button>
+        </form>
+
+    <script src="register.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head><title>OSI MODEL</title>
+    <style>
+        h1{
+            color:red;
+            font-size:40px;
+        }
+        p{
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 align="center">OSI MODEL</h1><hr><hr>
+    <h1>OSI Model:</h1>
+    <p>
+        
+OSI stands for Open System Interconnection is a reference model that describes how information from a software application in one computer moves through a physical medium to the software application in another computer.
+OSI consists of seven layers, and each layer performs a particular network function.
+OSI model was developed by the International Organization for Standardization (ISO) in 1984, and it is now considered as an architectural model for the inter-computer communications.
+OSI model divides the whole task into seven smaller and manageable tasks. Each layer is assigned a particular task.
+Each layer is self-contained, so that task assigned to each layer can be performed independently.
+    </p>
+    <h1>Characteristics of OSI Model:</h1>
+    <p>
+        The OSI model is divided into two layers: upper layers and lower layers.
+The upper layer of the OSI model mainly deals with the application related issues, and they are implemented only in the software. The application layer is closest to the end user. Both the end user and the application layer interact with the software applications. An upper layer refers to the layer just above another layer.
+The lower layer of the OSI model deals with the data transport issues. The data link layer and the physical layer are implemented in hardware and software. The physical layer is the lowest layer of the OSI model and is closest to the physical medium. The physical layer is mainly responsible for placing the information on the physical medium.
+    </p>
+    <h1>Functions of the OSI Layers:</h1>
+    <p>
+        He main functionality of the physical layer is to transmit the individual bits from one node to another node.
+It is the lowest layer of the OSI model.
+It establishes, maintains and deactivates the physical connection.
+It specifies the mechanical, electrical and procedural network interface specifications.
+    </p>
+    <h1>The two protocols used in this layer are:</h1>
+    <p>Transmission Control Protocol
+        It is a standard protocol that allows the systems to communicate over the internet.
+        It establishes and maintains a connection between hosts.<br>
+        When data is sent over the TCP connection, then the TCP protocol divides the data into smaller units known as segments. Each segment travels over the internet using multiple routes, and they arrive in different orders at the destination. The transmission control protocol reorders the packets in the correct order at the receiving end.
+        User Datagram Protocol<br>
+        User Datagram Protocol is a transport layer protocol.
+        It is an unreliable transport protocol as in this case receiver does not send any acknowledgment when the packet is received, the sender does not wait for any acknowledgment. Therefore, this makes a protocol unreliable.<br>
+        Functions of Transport Layer:
+        Service-point addressing: Computers run several programs simultaneously due to this reason, the transmission of data from source to the destination not only from one computer to another computer but also from one process to another process. The transport layer adds the header that contains the address known as a service-point address or port address. The responsibility of the network layer is to transmit the data from one computer to another computer and the responsibility of the transport layer is to transmit the message to the correct process.
+        Segmentation and reassembly: When the transport layer receives the message from the upper layer, it divides the message into multiple segments, and each segment is assigned with a sequence number that uniquely identifies each segment. When the message has arrived at the destination, then the transport layer reassembles the message based on their sequence numbers.
+        Connection control: Transport layer provides two services Connection-oriented service and connectionless service. A connectionless service treats each segment as an individual packet, and they all travel in different routes to reach the destination. A connection-oriented service makes a connection with the transport layer at the destination machine before delivering the packets. In connection-oriented service, all the packets travel in the single route.
+        Flow control: The transport layer also responsible for flow control but it is performed end-to-end rather than across a single link.
+        Error control: The transport layer is also responsible for Error control. Error control is performed end-to-end rather than across the single link. The sender transport layer ensures that message reach at the destination without any error.</p>
+</body>

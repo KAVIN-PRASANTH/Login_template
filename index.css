@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("pexels-dom-j-45717.jpg");
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+}
+.div1{
+    border: 2px solid black;
+    border-radius: 30px;
+    background:linear-gradient(to right,red,orange,yellow);
+    letter-spacing:0.3em;
+    margin-left:40px
+}
+.head1{
+    font-size:60px;
+    background: transparent;
+}
+.container{
+    border:2px solid black;
+    width: 450px;
+    height:450px;
+    margin-left:35%;
+    margin-top: 30px;
+    background-color:antiquewhite;
+    border-radius: 30px;
+    padding:5px;
+    cursor: pointer;
+}
+.img1{
+    width:150px;
+    height:150px;
+    display: flex;
+    border-radius: 50%;
+    margin-left: 35%;
+    margin-top: -60px;
+    border:2px solid black;
+    
+
+}
+.head2{
+    border:2px solid black;
+   /* padding:10px;*/
+    width:250px;
+    margin-left: 100px;
+   /* background-color: green;*/
+    border:none;
+    font-size:50px;
+    font-weight: bolder;
+}
+.input-name{
+    padding:15px;
+    width:250px;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+}
+.input-but{
+    padding:15px;
+    width:200px;
+    border:1px solid black;
+    border-radius: 30px;
+    background-color: blue;
+    font-weight: bolder;
+    font-size: 23px;
+    margin-left: 18px;
+    cursor:pointer;
+    border:none;
+
+}
+.input-but:hover{
+   background-color: rgb(35, 219, 247);
+   transition:0.5s;
+}
+#reg{
+    color:#FF5349;
+    font-size:20px;
+    font-weight: bold;
+}
